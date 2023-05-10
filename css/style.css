@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui;
+    background: #f2f2f2;
+}
+
+header {
+	width: 100%;
+}
+
+#guias {
+	height: 37px;
+	width: 1440px;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#guias nav a {
+    background-color: #315292;
+    font-weight: 700;
+    font-size: 10pt;
+    display: inline-block;
+    width: 120px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+}
+
+#guias nav a:nth-child(2) {
+    background-color: #14223D;
+}
+
+#guias nav a:nth-child(3) {
+    background-color: #1346aa;
+}
+
+#guias nav a:nth-child(4) {
+    background-color: #497ddd;
+}
+
+#guias a {
+    font-size: 10pt;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+
+#guias nav a i, #guias a i {
+    margin-right: 5px;
+}
+
+#navegacao-fundo {
+    background-color: #fff;
+	width: 100%;
+}
+
+#navegacao {
+	width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacao figure {
+    display: flex;
+    align-items: center;
+}
+
+#navegacao figure h1 {
+    color: #315292;
+    margin-right: 5px;
+}
+
+#navegacao figure img {
+    width: 60px;
+    height: 60px;
+}
+
+#navegacao form {
+    display: flex;
+}
+
+#navegacao form input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #205BC6;
+    border-radius: 5px 0 0 5px;
+    padding: 0 15px;
+}
+
+#navegacao form button {
+    width: 50px;
+    height: 40px;
+    background-color: #205BC6;
+    border: 1px solid #205BC6;
+    border-radius: 0 5px 5px 0;
+    padding: 0 15px;
+}
+
+#navegacao form button i {
+    color: #fff;
+    font-size: 13pt;
+}
+
+#navegacao aside {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#navegacao aside a {
+    display: flex;
+    font-size: 9pt;
+    align-items: center;
+    color: #000;
+}
+
+#navegacao aside a i {
+    font-size: 20pt;
+    margin-right: 5px;
+    color: #315292;
+}
+
+#navegacao aside a i:nth-child(2) {
+    color: #FFC209;
+}
